@@ -12,9 +12,6 @@
     "host_permissions": [
         "https://www.linkedin.com/*"
     ],
-    "background": {
-        "service_worker": "JS/background.js"
-    },
     "action": {
         "default_popup": "popup.html"
     },
