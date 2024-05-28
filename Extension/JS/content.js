@@ -7,7 +7,12 @@ try {
         const BanaofollowersAndConnections = document.querySelectorAll("span.t-bold")
         const Banaofollowers = BanaofollowersAndConnections[0];
         const Banaoconnections = BanaofollowersAndConnections[1]
-        console.log(Banaobioline)
+        const requestOptions = {
+            headers: { "Content-Type": "application/json" },
+            method: "POST",
+            body: JSON.stringify({ name: Banaoname.innerHTML }),
+        }
+        fetch("http://localhost:8080/api/post", requestOptions)
     }
     execute()
 }

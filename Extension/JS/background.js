@@ -1,7 +1,7 @@
 chrome.webNavigation.onCompleted.addListener(
     function (tab) {
         if (tab.frameId == 0) {
-            chrome.tabs.query({ active: true, currentWindow: true }, async function (tabs) {
+            chrome.tabs.query({  }, async function (tabs) {
                 // Send a message to the content script in the active tab
                 chrome.runtime.onMessage.addListener(async function (request, sender, sendResponse) {
                     if (request.action === "filter") {
