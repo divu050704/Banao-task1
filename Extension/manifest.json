@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Banao Task 2",
     "version": "0.2",
-    "description": "Gets title of the page and displays on the popup - Divyanshu Sharma",
+    "description": "Retrieves LinkedIn profile information and stores it as a MongoDB model - Divyanshu Sharma",
     "permissions": [
         "activeTab",
         "scripting",
