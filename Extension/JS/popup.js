@@ -6,12 +6,16 @@ window.onload = () => {
             chrome.tabs.create({
                 url: ele
             }, async function (newTab) {
-                chrome.scripting
-                    .executeScript({
-                        target: { tabID: newTab.id },
-                        files: ["./JS/content.js"],
-                    })
-                await new Promise(r => setTimeout(r, 7000));
+                chrome.tabs.onUpdated.addListener(function listener(tabID, info) {
+                    if (info.status === 'complete' && tabID === newTab.id) {
+                        chrome.scripting
+                            .executeScript({
+                                target: { tabID: newTab.id },
+                                files: ["./JS/content.js", runAt],
+                            })
+                    }
+                })
+
 
             })
 
