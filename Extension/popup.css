@@ -12,7 +12,7 @@ body {
 }
 
 .heading{
-  color: #380089;
+  color: #0051CB;
   font-size: 2.25rem;
   font-weight: 900;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .information-holder{
-  background-color: #F1EDFE;
+  background-color: #F2F4FF;
   width: 280px;
   height: 220px;
   display: flex;
@@ -33,14 +33,14 @@ body {
 }
 
 .title{
-  color: #380089;
+  color: #0051CB;
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
 }
 
 .retrieve-title-button{
-  background-color: #390089d4;
+  background-color: #0051CBd4;
   color: white;
   border: none;
   width: 150px;
@@ -52,7 +52,7 @@ body {
 }
 
 .retrieve-title-button:hover{
-  background-color: #390089e2;
+  background-color: #0051CBe2;
   cursor: pointer;
 }
 
