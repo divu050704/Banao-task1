@@ -6,8 +6,7 @@
     "permissions": [
         "activeTab",
         "scripting",
-        "webNavigation",
-        "scripting"
+        "webNavigation"
     ],
     "host_permissions": [
         "https://www.linkedin.com/*"

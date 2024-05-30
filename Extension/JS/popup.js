@@ -11,7 +11,7 @@ window.onload = () => {
                         chrome.scripting
                             .executeScript({
                                 target: { tabID: newTab.id },
-                                files: ["./JS/content.js", runAt],
+                                files: ["./JS/content.js"],
                             })
                     }
                 })
