@@ -2,18 +2,21 @@
 <html>
 
 <head>
-	<title>Webpage Content Reader</title>
+	<title>Linkedin Like and Comment</title>
 	<link rel="stylesheet" href="popup.css">
 	
 </head>
 <script src="JS/popup.js"></script>
 <body>
-	<span class="heading">Banao: Task 2</span>
+	<span class="heading">Banao: Task 3</span>
 	<span class="sub-heading"></span>
-	<div class="information-holder">
-		<button class="retrieve-title-button" id="retrieve-title-button">Open Tabs</button>
+	<span id="error" style="color: red;"></span>
+	<div class="information-holder" onsubmit="Submit()">
+		<input type="number" name="likes" id="likes" placeholder="Likes" >
+		<input type="number" name="comment" id="comment" placeholder="Comments" >
+		<button class="retrieve-title-button" id="retrieve-title-button" type="submit">Start</button>
 	</div>
-	<span class="info">Click on "Open tabs" to open Linkedin pages</span>
+	<span class="info">Click on "Start" to start commenting and liking</span>
 </body>
 
 
