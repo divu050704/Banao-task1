@@ -1,13 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Banao Task 2",
-    "version": "0.2",
+    "name": "Banao Task 3",
+    "version": "0.3",
     "description": "Retrieves LinkedIn profile information and stores it as a MongoDB model - Divyanshu Sharma",
     "permissions": [
         "activeTab",
         "scripting",
-        "webNavigation",
-        "scripting"
+        "webNavigation"
     ],
     "host_permissions": [
         "https://www.linkedin.com/*"
