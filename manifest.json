@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Banao Task 3",
     "version": "0.3",
-    "description": "Retrieves LinkedIn profile information and stores it as a MongoDB model - Divyanshu Sharma",
+    "description": "Automatically comment on and like LinkedIn posts based on user input. - Divyanshu Sharma",
     "permissions": [
         "activeTab",
         "scripting",
